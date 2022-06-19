@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.4",
+    "dotenv": "^16.0.1",
+    "email-validator": "^2.0.4",
+    "firebase": "^8.10.1",
+    "moment": "^2.29.3",
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^3.0.4",
+    "react-loader-spinner": "^5.1.5",
+    "styled-components": "^5.3.5",
+    "timeago-react": "^3.0.5"
+  },
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
