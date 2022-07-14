@@ -79,6 +79,8 @@ const ChatScreen = (props) => {
     setInput("");
     scrollToBottom();
   };
+    scrollToBottom();
+
 
   const recipient = recipientSnapshot?.docs?.[0]?.data();
   return (
